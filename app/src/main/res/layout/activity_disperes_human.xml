@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisperesHumanActivity" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/custom_button"
+            android:background="@drawable/button_background"
+            android:id="@+id/bplus20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EveryOne" />
+
+        <Button
+            style="@style/custom_button"
+            android:background="@drawable/button_background"
+            android:id="@+id/Younger24ButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 Younger" />
+
+        <Button
+            style="@style/custom_button"
+            android:background="@drawable/button_background"
+            android:id="@+id/Younger39ButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="39 Younger" />
+
+        <Button
+            style="@style/custom_button"
+            android:background="@drawable/button_background"
+            android:id="@+id/Younger49ButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="49 Younger" />
+
+        <Button
+            style="@style/custom_button"
+            android:background="@drawable/button_background"
+            android:id="@+id/Younger59ButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="59 Younger" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="/6499/example/banner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

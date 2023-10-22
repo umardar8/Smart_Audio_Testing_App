@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart ATHA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_first_screen">FirstScreen</string>
+    <string name="title_activity_after_main">AfterMainActivity</string>
+    <string name="title_activity_start_options">StartOptionsActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_disperes_human">DisperesHumanActivity</string>
+    <string name="title_activity_animal">Animal</string>
+    <string name="title_activity_hearing_aid">HearingAidActivity</string>
+    <string name="about_us1">This App was developed as a Final Year Project by students of 12 Batch and further improved by 18 Batch, Mehran University of Engineering &amp; Technology, Jamshoro. Under the supervision of:</string>
+    <string name="about_us2">Professor Dr. Fahim Aziz Umrani \nE-mail: faheemaziz.umrani@faculty.muet.edu.pk \nContact: +92-333-2697487</string>
+    <string name="about_us3">Team Members of 12 Batch\n1.Umair Ahmed Memon \n2.Ali Raza Jafri \n3.Haresh Kumar \n4.Santosh kumar \n5.Mohsin Mughal \n\nTeam Members of 18 Batch\n1.Safia Kalwar \n2.Umar Farooq Dar \n3.Abdul Raheem Ujjan \n\nOfficial website of the project: \nwww.seekers.base.pk\n</string>
+    <string name="help1_hear_screening">This feature can be used to test the hearing. Start from 8000 and stop the frequency where you start losing your hearing &amp; inform the ENT Doctor.</string>
+    <string name="help2_disperse_human">Humans can generally hear sound frequencies between 20Hz and 20,000Hz, but this range varies significantly with age. This feature generates signals which are audible only to the selected age group of people. It can be used to keep anti-social behavior at bay using its buzzing sound. This feature also helps to determine the age of a person.</string>
+    <string name="help3_disperse_animal">This feature is used to repel different animals. It emits US in the frequency range 20 kHz to 100 kHz. US above 20 kHz is inaudible to man But US frequency close to 30 kHz can be sensed by children to a certain level. So it is recommended not to use such devices continuously near the children below 5 years.</string>
+    <string name="hearing_aid_textview">Hearing Aid is a feature that converts the sound to 8kHz frequency so that the people who have low or damaged hearing ability, can easily hear sound without need of having to buy expensive hearing aid devices.</string>
+</resources>
